@@ -1,0 +1,16 @@
+---
+module:
+  type: app
+home:
+  title: CoPAS Linux Application's Template
+  description: Module template providing web GUI to Linux Desktops (basis for specific Linux applications)
+analysis:
+  profile:
+    default: small
+    options:
+      - name: small
+        label: Small
+      - name: medium
+        label: Medium
+      - name: large
+        label: Large

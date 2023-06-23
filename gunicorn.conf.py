@@ -1,0 +1,5 @@
+workers = '2'
+bind = '0.0.0.0:8082'
+timeout = '300'
+accesslog = '/var/log/copas/app-access.log'
+errorlog = '/var/log/copas/app-error.log'
